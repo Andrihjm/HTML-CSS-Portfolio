@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+        <!-- SCRIPT.JS -->
+    <script defer src="main.js"></script>
+
+        <!-- FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/7e35dc99cb.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head> 
+<body>
+
+    <!-- HEADER -->
+    <header class="header"> 
+        <h1 class="logo">Portfolio</h1>
+        <i id="menu" class="fa-solid fa-bars"></i>
+
+        <nav id="navBar" class="navBar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+
+            <div id="dark-mode-toggle" class="toggle-icon">
+                <i class='bx bx-sun icon'></i>
+            </div>
+        </nav>
+    </header> 
+
+
+                    <!-- HOME -->
+    <section id="Home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Haris Andri Irawan</h1>
+            <h3>And I'm <span id="typeIt"></span></h3>
+            <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing elit.</span> Harum dignissimos, nesciunt esse eos ratione aliquid laboriosam suscipit.</p>
+
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/img/foto-1.jpeg" alt="">
+        </div>
+    </section> 
+
+
+
+                        <!-- ABOUT -->
+    <section id="About" class="about">
+        <div class="about-img">
+            <img src="/img/foto-1.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Aspernatur  dignissimos sequi fuga hic</span>, molestiae enim excepturi mollitia necessitatibus aut repudiandae temporibus, optio aliquid cumque magnam sit iste tenetur ratione non saepe <span>quidem aliquam veritatis obcaecati recusandae?</span> Dolorem laborum illo maiores ducimus eaque sint earum perferendis.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section> 
+
+
+
+                            <!-- GALERY -->
+    <section class="galery">
+        <h1 class="heading">My <span>Images</span></h1>
+
+        <div class="galeri">
+            <div class="container">
+                <div class="box box-1" style="--img: url(/img/foto-1.jpeg);" data-text="haris"></div>
+                <div class="box box-2" style="--img: url(/img/foto-1.jpeg);" data-text="andri"></div>
+                <div class="box box-3" style="--img: url(/img/foto-1.jpeg);" data-text=irawan"></div>
+                <div class="box box-4" style="--img: url(/img/foto-1.jpeg);" data-text="ari"></div>
+                <div class="box box-5" style="--img: url(/img/foto-1.jpeg);" data-text="aldi"></div>
+            </div>
+        </div>
+    </section>                            
+
+
+
+                            <!-- AKU -->
+    <section class="aku show-animate">
+        <h2 class="heading">Testimonial <span>Woy</span></h2>
+
+        <div class="aku-img">
+            <span class="spin-1"></span>
+            <img src="/img/foto-1.jpeg" alt="">
+            <span class="spin"></span>
+        </div>
+
+        <div class="aku-content">
+            <h2>Front End Developer</h2>
+            <p id="type-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quisquam nostrum, inventore, necessitatibus quasi ipsam modi dolorem commodi corrupti totam nisi et ad. Perferendis atque molestiae corporis laborum sed asperiores</span> nulla aperiam similique perspiciatis, modi rerum laudantium nesciunt quidem officia eaque!</p>
+        </div>
+    </section>
+
+
+
+                            <!-- SERVICES -->
+    <section id="Services" class="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum <span>dolor sit amet consectetur adipisicing elit.</span> Quia nulla dolores doloribus sapiente eius facere beatae minima, libero laudantium. Repudiandae?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Selebewww</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Quia nulla dolores doloribus sapiente</span> eius facere beatae minima, libero laudantium. Repudiandae?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-slack"></i>
+                <h3>Cuaks pake zzz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla dolores doloribus sapiente eius facere <span>beatae minima, libero laudantium.</span> Repudiandae?</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+                        <!-- PORTFOLIO -->
+    <section id="Portfolio" class="portfolio">
+        <h2 class="heading">My <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+
+            <div class="portfolio-box">
+                <img src="/img/foto-1.jpeg" alt="">
+                <div class="portfolio-card">
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vel!</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>    
+        </div>
+    </section> 
+
+
+
+                            <!-- CONTACT -->
+    <section id="Contact" class="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="" id="" placeholder="Full Name">
+                <input type="email" name="" id="" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="" id="" placeholder="Mobile Number">
+                <input type="text" name="" id="" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messege"></textarea>
+            <input type="submit" class="btn" value="Send Messege">
+        </form>
+
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d196.2852197341222!2d104.61151946903504!3d-3.9957206964972305!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1694267816524!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section> 
+
+
+
+
+                        <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Andri || All Rights Reservend</p>
+        </div>
+
+        <div class="footer-icons">
+            <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+
+                <!-- SCROLL  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+                <!-- TYPE-IT -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>                
+
+
+
+</body>
+</html>
