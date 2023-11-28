@@ -21,16 +21,16 @@ toggleIcons.forEach( () => {
     toggle.addEventListener('click', () => {
         icons.forEach(icon => {
             icon.classList.toggle('bxs-moon');          
-            // Dark Mode
+            // Fungsi Dark Mode
             document.body.classList.toggle('dark-mode')
         });
     });
 });
 
 
-// NAVBAR-ACTIVE
+// MENU NAVBAR ACTIVE
 let sections = document.querySelectorAll('section');
-let nav = document.querySelectorAll('header nav a');
+let nav = document.querySelectorAll('nav a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -67,8 +67,8 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 // TYPE-IT-TEXT
 const typed = new Typed('#typeIt', {
     strings: ['Frontend Developer', 'Selebewwww', 'Cuakss Pake Zzz'],
-    typeSpeed: 100,
+    typeSpeed: 200,
     backSpeed: 100,
-    backDelay: 2000,
+    backDelay: 2500,
     loop: true,
 });
